@@ -1,0 +1,78 @@
+.SPMaindiv{
+    min-height: 100vh;
+    background-image: url('../media/LPimg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+input[type=text] {
+    width: 100%;
+    background-color: #EEF2F5;  
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=password] {
+    width: 100%;
+    background-color: #EEF2F5;  
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.SPlogodiv{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 100px;
+    padding-top: 80px;
+}
+.SPlogodiv img{
+    height: 50px;
+}
+.SPlogodiv span{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* TODO: change font */
+    color: #224766;
+}
+.SPContentdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 100px;
+}
+.SPContentdiv img{
+    width: 400px;
+}
+.SPbox{
+    padding-right: 280px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.SPbox span{
+    font-size: 32px;
+}
+input[type=submit] {
+    background-color: #224766;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    float: right;
+    margin-bottom: 10px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #10293d;
+  }
+  .SPactext span{
+    font-size: 15px;
+}

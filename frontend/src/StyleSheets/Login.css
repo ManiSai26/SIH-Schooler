@@ -1,0 +1,84 @@
+.LPMaindiv {
+  min-height: 100vh;
+  background-image: url("../media/LPimg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+input[type="text"] {
+  width: 100%;
+  background-color: #eef2f5;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type="password"] {
+  width: 100%;
+  background-color: #eef2f5;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.LPlogodiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 100px;
+  padding-top: 80px;
+}
+.LPlogodiv img {
+  height: 50px;
+}
+.LPlogodiv span {
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  /* TODO: change font */
+  color: #224766;
+}
+.LPContentdiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 100px;
+}
+.LPContentdiv img {
+  width: 400px;
+}
+.LPbox {
+  padding-right: 280px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.LPbox span {
+  font-size: 32px;
+}
+input[type="submit"] {
+  background-color: #224766;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 20px;
+  float: right;
+  margin-bottom: 10px;
+}
+
+input[type="submit"]:hover {
+  background-color: #10293d;
+}
+.LPinpbox{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.LPactext span{
+    font-size: 15px;
+}
