@@ -128,7 +128,7 @@ const LandingBody = () => {
             <span>Let's Work Together</span>
           </div>
           <div className="LBcontactinfo">
-            <div className="LBcontactdetails"><span>500 Terry Francois St. San Francisco, CA 94158</span><br/></div>
+            <div className="LBcontactdetails"><span>Hyderabad Telangana</span><br/></div>
             <div className="LBcontactdetails"><span>info@mysite.com</span><br/></div>
             <div className="LBcontactdetails"><span>Tel: 123-456-7890</span></div>
           </div>

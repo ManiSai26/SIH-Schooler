@@ -11,13 +11,13 @@ const LandingPageNavBar = () => {
                     <a href='#'>Home</a>
                 </div>
                 <div className='LnPNavLinkdiv'>
-                    <a href='#'>Services</a>
+                    <a href='#LBServices'>Services</a>
                 </div>
                 <div className='LnPNavLinkdiv'>
-                    <a href='#'>About</a>
+                    <a href='#LBAboutdiv'>About</a>
                 </div>
                 <div className='LnPNavLinkdiv'>
-                    <a href='#'>Contact</a>
+                    <a href='#LBContact'>Contact</a>
                 </div>
             </div>
             <div className='LnPNavButtons'>
