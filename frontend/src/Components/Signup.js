@@ -32,7 +32,7 @@ const Signup = () => {
             <input type={'password'} placeholder='Password' id="password"/>
             </div>
             <input type={'submit'} value='Signup' />
-            <div className="SPactext"><span>Have an account <a href="/">Login</a></span></div>
+            <div className="SPactext"><span>Have an account <a href="/login">Login</a></span></div>
         </div>
       </div>
     </div>

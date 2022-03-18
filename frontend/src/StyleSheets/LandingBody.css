@@ -1,0 +1,173 @@
+.LBbody {
+  margin-left: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.LBbodyhead {
+  padding-top: 50px;
+  font-size: 80px;
+  font-weight: 800;
+  /* font-family: ; TODO*/
+}
+.LBbodydesc {
+  margin-top: 10px;
+  font-size: 25px;
+  margin-bottom: 50px;
+  font-weight: 200;
+}
+.LBbodybutton input[type="submit"] {
+  background-color: #224766;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  float: right;
+  margin-bottom: 10px;
+}
+
+.LBbodybutton input[type="submit"]:hover {
+  background-color: #10293d;
+}
+.LBServices {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.LBServicehead {
+  font-size: 20px;
+  font-weight: 600;
+  color: #224766;
+}
+.LBservicedesc {
+  font-size: 30px;
+  font-weight: 600;
+}
+.LBServicesrow {
+  margin: 50px 0px;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.LBServicebox {
+  width: 20vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.LBServicebox img {
+  width: 150px;
+}
+.LBServiceboxhead {
+  font-size: 16px;
+  font-weight: 600;
+}
+.LBAboutdiv {
+  display: flex;
+  flex-direction: row;
+  margin-left: 200px;
+  margin-top: 50px;
+  align-items: center;
+  margin-right: 50px;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+.LBAboutdetails {
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.LBAbouthead {
+  font-size: 20px;
+  font-weight: 600;
+  color: #224766;
+  margin-bottom: 20px;
+}
+.LBAbouttitle {
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.LBAboutdesc {
+  color: grey;
+  font-size: 18px;
+}
+.LBContact {
+  margin-left: 200px;
+  margin-right: 200px;
+  /* width: 100vw; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.LBcontacthead {
+  font-size: 20px;
+  font-weight: 600;
+  color: #224766;
+  margin-bottom: 15px;
+}
+.LBContacttitle {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.LBcontactdetails {
+  margin-bottom: 10px;
+}
+.LBsocialmedia {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.LBsocialmedia img {
+  margin: 0 10px;
+}
+.LBContactRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.LBContactDetails {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 15px;
+}
+.LBContactDetails [type="text"] {
+  border: none;
+  background-color: white;
+  border-bottom: 1px solid black;
+}
+.LBContactDetails [type="text"]:focus {
+  border: none;
+  background-color: white;
+  border-bottom: 1px solid black;
+}
+.LBaboutimg img {
+  height: 500px;
+  margin-right: 70px;
+}
+.LBContactbutton input[type="submit"] {
+  background-color: #224766;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  float: right;
+  margin-bottom: 10px;
+}
+.LBContactbutton input[type="submit"]:hover {
+  background-color: #10293d;
+}
+.LBContactbutton{
+    align-items: center;
+    display: flex;
+}
