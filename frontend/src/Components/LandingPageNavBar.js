@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import '../StyleSheets/LandingNavbar.css'
 const LandingPageNavBar = () => {
     return ( 
@@ -20,9 +21,11 @@ const LandingPageNavBar = () => {
                     <a href='#LBContact'>Contact</a>
                 </div>
             </div>
-            <div className='LnPNavButtons'>
-            <input type={'submit'} value='Login'/>
-            <input type={'submit'} value='Signup'/>
+            <div>
+            {/* <input type={'submit'} value='Login' className='LnPNavButtons'/> */}
+            <Link to='/login' className='LnPNavButtons'>Login</Link>
+            <Link to='/signup' className='LnPNavButtons'>signup</Link>
+            {/* <input type={'submit'} value='Signup' className='LnPNavButtons'/> */}
             </div>
         </div>
      );

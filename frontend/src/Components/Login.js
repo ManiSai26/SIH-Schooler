@@ -1,12 +1,13 @@
 import React from "react";
 import "../StyleSheets/Login.css";
 import Logo from "../media/Logo.svg";
+import { Link } from "react-router-dom";
 import LPimg from "../media/LPimg.svg";
 const Login = () => {
   return (
     <div className="LPMaindiv">
       <div className="LPlogodiv">
-        <img src={Logo} alt="Logo" />
+        <Link to='/'><img src={Logo} alt="Logo" /></Link>
         <span>Schooler</span>
       </div>
       <div className="LPContentdiv">

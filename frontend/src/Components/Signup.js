@@ -1,12 +1,13 @@
 import React from 'react';
 import Logo from "../media/Logo.svg";
 import SPimg from "../media/LPimg.svg";
-import '../StyleSheets/Signup.css'
+import '../StyleSheets/Signup.css';
+import { Link } from "react-router-dom";
 const Signup = () => {
     return ( 
         <div className="SPMaindiv">
       <div className="SPlogodiv">
-        <img src={Logo} alt="Logo" />
+      <Link to='/'><img src={Logo} alt="Logo" /></Link>
         <span>Schooler</span>
       </div>
       <div className="SPContentdiv">

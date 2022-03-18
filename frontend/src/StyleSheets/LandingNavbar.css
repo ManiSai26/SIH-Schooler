@@ -28,7 +28,7 @@
     text-decoration: none;
     color: #224766;
 }
-.LnPNavButtons input[type="submit"] {
+/* .LnPNavButtons input[type="submit"] {
     background-color: #224766;
     color: white;
     padding: 12px 20px;
@@ -39,4 +39,17 @@
     float: right;
     margin-bottom: 10px;
     margin-left: 20px;
-  }
+  } */
+.LnPNavButtons{
+    background-color: #224766;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    float: right;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    text-decoration: none;
+}
