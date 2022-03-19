@@ -59,7 +59,7 @@ input[type="password"] {
 .SPbox span {
   font-size: 32px;
 }
-input[type="submit"] {
+.SPbox input[type="submit"] {
   background-color: #224766;
   color: white;
   padding: 12px 20px;
@@ -70,7 +70,7 @@ input[type="submit"] {
   margin-bottom: 10px;
 }
 
-input[type="submit"]:hover {
+.SPbox input[type="submit"]:hover {
   background-color: #10293d;
 }
 .SPactext span {

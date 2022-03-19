@@ -1,0 +1,55 @@
+.LnPNavBar{
+    padding: 0px 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
+}
+.LnPNavLinks{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.LnPNavlogo{
+    font-size: 28px;
+    font-weight: 600;
+}
+.LnPNavLinkdiv{
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0px 10px;
+}
+.LnPNavLinkdiv a{
+    color: black;
+    text-decoration: none;
+}
+.LnPNavLinkdiv a:hover{
+    text-decoration: none;
+    color: #224766;
+}
+/* .LnPNavButtons input[type="submit"] {
+    background-color: #224766;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    float: right;
+    margin-bottom: 10px;
+    margin-left: 20px;
+  } */
+.LnPNavButtons{
+    background-color: #224766;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    float: right;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    text-decoration: none;
+}

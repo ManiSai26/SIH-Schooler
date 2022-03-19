@@ -3,6 +3,7 @@ import Logo from "../media/Logo.svg";
 import SPimg from "../media/LPimg.svg";
 import '../StyleSheets/Signup.css'
 import {useNavigate} from 'react-router-dom';
+import { Link } from "react-router-dom";
 const Signup = () => {
     const history = useNavigate();
     const [admin,setAdmin]=useState({
@@ -41,7 +42,7 @@ const Signup = () => {
     return ( 
         <div className="SPMaindiv">
       <div className="SPlogodiv">
-        <img src={Logo} alt="Logo" />
+      <Link to='/'><img src={Logo} alt="Logo" /></Link>
         <span>Schooler</span>
       </div>
       <div className="SPContentdiv">
