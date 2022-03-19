@@ -8,7 +8,7 @@ import WorkMadeEasy from "../media/WorkMadeEasy.svg";
 import "../StyleSheets/LandingBody.css";
 import Mail from '../media/Mail.png';
 import facebook from '../media/facebook.svg';
-import Whatsapp from '../media/Whatsapp.svg';
+import waves from '../media/Waves1.svg';
 import Twitter from '../media/Twitter.svg';
 const LandingBody = () => {
   return (
@@ -23,6 +23,7 @@ const LandingBody = () => {
         <div className="LBbodybutton">
           <input type={"submit"} value="Learn More" />
         </div>
+        <img src={waves} alt='waves'/>
       </div>
       <div className="LBServices">
         <div className="LBServicehead">
@@ -129,8 +130,8 @@ const LandingBody = () => {
           </div>
           <div className="LBcontactinfo">
             <div className="LBcontactdetails"><span>Hyderabad Telangana</span><br/></div>
-            <div className="LBcontactdetails"><span>info@mysite.com</span><br/></div>
-            <div className="LBcontactdetails"><span>Tel: 123-456-7890</span></div>
+            <div className="LBcontactdetails"><span>ramakanthseshabhattar@gmail.com</span><br/></div>
+            <div className="LBcontactdetails"><span>Tel: +91 8367498911</span></div>
           </div>
           <div className="LBsocialmedia">
             <img src={Mail} alt='mail'/>

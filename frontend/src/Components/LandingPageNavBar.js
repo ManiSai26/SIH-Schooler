@@ -24,7 +24,7 @@ const LandingPageNavBar = () => {
             <div>
             {/* <input type={'submit'} value='Login' className='LnPNavButtons'/> */}
             <Link to='/login' className='LnPNavButtons'>Login</Link>
-            <Link to='/signup' className='LnPNavButtons'>signup</Link>
+            <Link to='/signup' className='LnPNavButtons'>Signup</Link>
             {/* <input type={'submit'} value='Signup' className='LnPNavButtons'/> */}
             </div>
         </div>
