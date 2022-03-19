@@ -2,11 +2,14 @@ const express = require('express');
 const router = express.Router();
 require('../db/conn');
 const Admin = require('../model/userSchema');
-router.get('/',(req,res)=>{
+/*router.get('/',(req,res)=>{
    res.send('hello world from the server router js');
-});
-router.post('/register',(req,res)=>{
-    const {shname, uid, Aname, phno, mid, pword} = body;
+});*/
+router.get('/register',(req,res)=>{
+    res.set('Access-Control-Allow-Origin', '*');
+    // res.send({ "msg": "This has CORS enabled" })
+   console.log(req.body);
+   const {shname, uid, Aname, phno, mid, pword} = req.body;
     if(!shname||!uid||!Aname||!phno||!mid||!pword){
         return res.status(422).json({error: "please fill all fields"});
     }
@@ -15,7 +18,6 @@ router.post('/register',(req,res)=>{
         if(adminExist){
             return res.status(422).json({error: "Admin already exists"});
         }
-
         const admin = new Admin({shname, uid, Aname, phno, mid, pword});
         admin.save().then(()=>{
            res.status(201).json({message:"Admin registered successfully!!"});

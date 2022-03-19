@@ -4,21 +4,19 @@ import SPimg from "../media/LPimg.svg";
 import '../StyleSheets/Signup.css'
 import {useNavigate} from 'react-router-dom';
 const Signup = () => {
-    const history = useNavigate();
-    const [admin,setAdmin]=useState({
-        shname:"", uid:"", Aname:"", phno:"", mid:"", pword:""
-    });
-    let name,value;
-    const handleinputs=(e)=>{
-      console.log(e);
-      name=e.target.name;
-      value=e.target.value;
-      setAdmin({...admin,[name]:value});
-    }
+    //const history = useNavigate();
     const SendData = async(e) =>{
+      const shname=document.getElementById("schoolName").value;
+      const uid=document.getElementById("udiseCode").value;
+      const Aname=document.getElementById("Name").value;
+      const phno=document.getElementById("contactNo").value;
+      const mid=document.getElementById("mailId").value;
+      const pword=document.getElementById("password").value;
+      console.log({
+        shname, uid, Aname, phno, mid, pword 
+      });
       e.preventDefault()
-      const {shname, uid, Aname, phno, mid, pword} = admin;
-      const res = await fetch("/register",{
+      const res = await fetch("http://127.0.0.1:5000/register",{mode:'cors'},{
         method:"POST",
         headers:{
           "Content-Type":"application/json"
@@ -36,7 +34,7 @@ const Signup = () => {
         window.alert("registration successfull");
         console.log("registration successfull");
       }
-      history.push("/Login");
+      //history.push("/Login");
     }
     return ( 
         <div className="SPMaindiv">
@@ -49,22 +47,22 @@ const Signup = () => {
         <div className="SPbox">
             <span>Signup</span>
             <div className="SPinpbox">
-            <input type={'text'} placeholder='School Name' id="schoolName" value={admin.shname} onInput={handleinputs}/>
+            <input type={'text'} placeholder='School Name' id="schoolName" />
             </div>
             <div className="SPinpbox">
-            <input type={'text'} placeholder='Udise Code' id="udiseCode" value={admin.uid} onChange={handleinputs}/>
+            <input type={'text'} placeholder='Udise Code' id="udiseCode"/>
             </div>
             <div className="SPinpbox">
-            <input type={'text'} placeholder='Name' id="Name" value={admin.Aname} onChange={handleinputs}/>
+            <input type={'text'} placeholder='Name' id="Name"/>
             </div>
             <div className="SPinpbox">
-            <input type={'text'} placeholder='Contact no' id="contactNo" value={admin.phno} onChange={handleinputs}/>
+            <input type={'text'} placeholder='Contact no' id="contactNo"/>
             </div>
             <div className="SPinpbox">
-            <input type={'text'} placeholder='Mail-id' id="mailId" value={admin.mid} onChange={handleinputs}/>
+            <input type={'text'} placeholder='Mail-id' id="mailId"/>
             </div>
             <div className="SPinpbox">
-            <input type={'password'} placeholder='Password' id="password" value={admin.pword} onChange={handleinputs}/>
+            <input type={'password'} placeholder='Password' id="password"/>
             </div>
             <input type={'submit'} value='Signup' onClick={SendData}/>
             <div className="SPactext"><span>Have an account <a href="/">Login</a></span></div>
