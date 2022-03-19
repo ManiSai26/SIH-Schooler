@@ -16,5 +16,5 @@ app.get('/',(req,res)=>{
 });
 const Admin = require('./model/userSchema');
 app.listen(PORT,()=>{
-    console.log("server is running at port ${PORT}");
+    console.log(`server is running at port ${PORT}`);
 })

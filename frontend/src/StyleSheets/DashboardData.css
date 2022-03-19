@@ -1,0 +1,204 @@
+.DBMainDiv {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 25px 40px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 200px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.DBHeadDiv {
+  margin-bottom: 25px;
+}
+
+.DBHeadDiv span {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.DBOverallStatsDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.DBGraphDiv {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  padding: 20px;
+  width: 700px;
+}
+
+.DBAverageDiv {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  padding: 20px;
+  width: 300px;
+  height: 350px;
+}
+.DBAverageTopChart {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.DBDoughnutDiv {
+  width: 100px;
+  margin: 20px 10px;
+}
+.DBNoTests {
+  margin: 40px 10px;
+}
+.DBDoughnutcolorMainDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: inherit;
+}
+.DbDoughnutcolordiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.DbDoughnutcolordiv span {
+  font-size: 10px;
+}
+.DbDoughnutcolorboxcorrect {
+  width: 12px;
+  height: 12px;
+  margin-right: 5px;
+  background-color: #0058ff;
+}
+.DbDoughnutcolorboxwrong {
+  width: 12px;
+  height: 12px;
+  margin-right: 5px;
+  background-color: #f24b0f;
+}
+.DBAverageTopHead span,
+.DBAverageBottomHead span {
+  font-size: 16px;
+  font-weight: bold;
+}
+.DBBarDiv {
+  width: 300px;
+  margin: 20px 10px;
+}
+
+.DBHistoryDiv {
+  display: flex;
+  flex-direction: row;
+}
+
+.DBHistory {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  padding: 20px;
+  width: 200px;
+}
+
+.AddMargin {
+  margin-left: 20px;
+}
+
+.DBHistoryHead {
+  margin: 2px 0px;
+}
+
+.DBHistoryHead span {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.DBHistoryBody {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.DBHistoryGraph {
+  width: 70px;
+  margin: 10px 5px;
+  margin-right: 6px;
+}
+
+.DBHistoryText {
+  display: flex;
+  flex-direction: column;
+  margin-left: 6px;
+}
+
+.DBHistoryText span {
+  font-size: 10px;
+  margin: 2px 0px;
+}
+.DBHistorypercent {
+  position: relative;
+  top: 42px;
+  left: 14px;
+  font-size: 13px;
+}
+.DBAveragepercent {
+  position: relative;
+  top: 60px;
+  left: 25px;
+  font-weight: bold;
+}
+.DBrecommend {
+  /* background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 25px 40px; */
+  display: flex;
+  flex-direction: column;
+  margin-left: 200px;
+  margin-top: -100px;
+}
+.DBrecommend span {
+  font-size: 30px;
+  margin-bottom: 50px;
+  margin-left: 16px;
+}
+.DBAverageBottomHeadavg span{
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 100px;
+}
+.DBBarDiv1{
+  margin-left: 80px;
+}
+.DBrecommendrow{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 25px 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+.dbrecommendcol
+{
+  margin-top: 100px;
+  margin-right: 250px;
+}
+.dbrecommendhead{
+  margin: 25px 0;
+}
+.dbrecommendsubdiv{
+  margin-top: 10px;
+  /* margin-left: 180px; */
+}
+.Dbheader{
+  margin-left: 300px;
+  margin-top: 50px;
+  font-size: 30px;
+}

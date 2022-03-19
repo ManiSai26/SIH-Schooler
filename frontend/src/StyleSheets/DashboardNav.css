@@ -1,0 +1,27 @@
+.DBnav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    position: fixed;
+    top: 0%;
+    width: 100vw;
+    background-color: white;
+    z-index: 99;
+    border-bottom: 1px solid grey;
+    box-shadow: 10px 0 15px -2px #888    ;
+}
+.DBLogodiv {
+    /* height: 50px; */
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.DBLogodiv img{
+    height: 50px;
+}
+.DBLogodiv span{
+    font-size: 40px;
+}
