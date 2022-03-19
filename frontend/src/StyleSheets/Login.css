@@ -4,8 +4,8 @@
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
-input[type="text"] {
-  width: 100%;
+input[type="text"],select {
+  /* width: 100%;  */
   background-color: #eef2f5;
   padding: 12px 20px;
   margin: 8px 0;
@@ -13,6 +13,9 @@ input[type="text"] {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+}
+select{
+  font-size: 16px;
 }
 input[type="password"] {
   width: 100%;
@@ -60,7 +63,7 @@ input[type="password"] {
 .LPbox span {
   font-size: 32px;
 }
-input[type="submit"] {
+.LPbox input[type="submit"] {
   background-color: #224766;
   color: white;
   padding: 12px 20px;
@@ -72,7 +75,7 @@ input[type="submit"] {
   margin-bottom: 10px;
 }
 
-input[type="submit"]:hover {
+.LPbox input[type="submit"]:hover {
   background-color: #10293d;
 }
 .LPinpbox{
