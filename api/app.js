@@ -1,16 +1,13 @@
-const dotenv = require('dotenv');
-
+const dotenv = require('dotenv'); 
 const express = require('express');
 const app = express();
+const cors = require("cors");
+
 dotenv.config({path:'./config.env'});
 require('./db/conn');
 app.use(express.json());
 app.use(require('./router/auth'));
 const PORT = process.env.PORT;
-const middleware = (req,res,next)=>{
-    console.log("my middleware");
-    next();
-}
 app.get('/',(req,res)=>{
    res.send('hello from server');
 });
